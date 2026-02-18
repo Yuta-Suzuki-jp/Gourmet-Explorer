@@ -77,7 +77,7 @@ export const questions = [
         id: 7,
         question: 'マヨネーズは必須？',
         bgGradient: 'linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)',
-        image: 'https://images.unsplash.com/photo-1528750997573-59b0d0cee4d5?w=800&q=80&fit=crop',
+        image: 'https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=800&q=80&fit=crop',
         options: [
             { label: '絶対必須！', value: 'must' },
             { label: 'あれば嬉しい', value: 'nice' },
@@ -113,7 +113,7 @@ export const questions = [
         id: 10,
         question: 'お好み焼きが食べたい？',
         bgGradient: 'linear-gradient(135deg, #ff6b6b 0%, #ffd93d 50%, #2ecc71 100%)',
-        image: 'https://images.unsplash.com/photo-1632203171982-cc0df6a9ceb4?w=800&q=80&fit=crop',
+        image: 'https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?w=800&q=80&fit=crop',
         isLastQuestion: true,
         options: [
             { label: 'はい', value: 'yes' },
