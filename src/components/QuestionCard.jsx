@@ -44,20 +44,18 @@ function QuestionCard({
 
             {/* Card */}
             <div className={cardClass}>
-                {/* Gradient visual area */}
-                <div
-                    className="card-image-area"
-                    style={{ background: question.bgGradient }}
-                >
-                    {/* Abstract decorative circles */}
-                    <div className="card-deco card-deco--1" />
-                    <div className="card-deco card-deco--2" />
-                    <div className="card-deco card-deco--3" />
-                    <div className="card-question-overlay">
-                        <span className="card-question-number-large">
-                            {isLast ? '?' : String(currentIndex + 1).padStart(2, '0')}
-                        </span>
-                    </div>
+                {/* Photo area */}
+                <div className="card-image-area">
+                    <img
+                        className="card-photo"
+                        src={question.image}
+                        alt=""
+                        loading="eager"
+                    />
+                    <div
+                        className="card-image-tint"
+                        style={{ background: question.bgGradient }}
+                    />
                     <div className="card-image-fade" />
                 </div>
 

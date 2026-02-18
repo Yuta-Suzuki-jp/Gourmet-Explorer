@@ -1,10 +1,11 @@
-/* Questions data — no emojis, abstract gradient visuals */
+/* Questions data — with Unsplash photo backgrounds */
 
 export const questions = [
     {
         id: 1,
         question: '今日の気分は？',
         bgGradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+        image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80&fit=crop',
         options: [
             { label: 'ガッツリ食べたい', value: 'heavy' },
             { label: 'ヘルシーにいきたい', value: 'healthy' },
@@ -16,6 +17,7 @@ export const questions = [
         id: 2,
         question: '誰と食べる？',
         bgGradient: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
+        image: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80&fit=crop',
         options: [
             { label: 'ひとりで気ままに', value: 'alone' },
             { label: '恋人とロマンチックに', value: 'partner' },
@@ -27,6 +29,7 @@ export const questions = [
         id: 3,
         question: '予算はどれくらい？',
         bgGradient: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
+        image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80&fit=crop',
         options: [
             { label: 'ワンコイン以内', value: 'cheap' },
             { label: '1000円くらい', value: 'moderate' },
@@ -38,6 +41,7 @@ export const questions = [
         id: 4,
         question: 'カロリー、気にする？',
         bgGradient: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
+        image: 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800&q=80&fit=crop',
         options: [
             { label: 'めっちゃ気にする', value: 'strict' },
             { label: 'ちょっとは気にする', value: 'moderate' },
@@ -49,6 +53,7 @@ export const questions = [
         id: 5,
         question: '辛いもの好き？',
         bgGradient: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)',
+        image: 'https://images.unsplash.com/photo-1588252303782-cb80119abd6d?w=800&q=80&fit=crop',
         options: [
             { label: '辛ければ辛いほど良い', value: 'love' },
             { label: 'ピリ辛くらいがちょうどいい', value: 'mild' },
@@ -60,6 +65,7 @@ export const questions = [
         id: 6,
         question: '理想の焼き加減は？',
         bgGradient: 'linear-gradient(135deg, #f6d365 0%, #fda085 100%)',
+        image: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&q=80&fit=crop',
         options: [
             { label: 'カリッカリ派', value: 'crispy' },
             { label: 'ふわっふわ派', value: 'fluffy' },
@@ -71,6 +77,7 @@ export const questions = [
         id: 7,
         question: 'マヨネーズは必須？',
         bgGradient: 'linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)',
+        image: 'https://images.unsplash.com/photo-1528750997573-59b0d0cee4d5?w=800&q=80&fit=crop',
         options: [
             { label: '絶対必須！', value: 'must' },
             { label: 'あれば嬉しい', value: 'nice' },
@@ -82,6 +89,7 @@ export const questions = [
         id: 8,
         question: '料理中に聴く音楽は？',
         bgGradient: 'linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)',
+        image: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=800&q=80&fit=crop',
         options: [
             { label: 'J-POP', value: 'jpop' },
             { label: 'ジャズでムーディーに', value: 'jazz' },
@@ -93,6 +101,7 @@ export const questions = [
         id: 9,
         question: '今日のラッキーカラーは？',
         bgGradient: 'linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%)',
+        image: 'https://images.unsplash.com/photo-1525909002-1b05e0c869d8?w=800&q=80&fit=crop',
         options: [
             { label: '情熱のレッド', value: 'red' },
             { label: '爽やかブルー', value: 'blue' },
@@ -104,6 +113,7 @@ export const questions = [
         id: 10,
         question: 'お好み焼きが食べたい？',
         bgGradient: 'linear-gradient(135deg, #ff6b6b 0%, #ffd93d 50%, #2ecc71 100%)',
+        image: 'https://images.unsplash.com/photo-1632203171982-cc0df6a9ceb4?w=800&q=80&fit=crop',
         isLastQuestion: true,
         options: [
             { label: 'はい', value: 'yes' },
