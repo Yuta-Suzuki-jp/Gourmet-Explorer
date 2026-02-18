@@ -1,118 +1,108 @@
-/* Questions data with emoji-based card illustrations */
+/* Questions data — no emojis, abstract gradient visuals */
 
 export const questions = [
     {
         id: 1,
         question: '今日の気分は？',
-        emoji: '✨',
         bgGradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
         options: [
-            { label: 'ガッツリ食べたい 💪', value: 'heavy' },
-            { label: 'ヘルシーにいきたい 🥗', value: 'healthy' },
-            { label: 'おしゃれに楽しみたい 🍷', value: 'fancy' },
-            { label: 'とにかくお酒が飲みたい 🍺', value: 'drink' },
+            { label: 'ガッツリ食べたい', value: 'heavy' },
+            { label: 'ヘルシーにいきたい', value: 'healthy' },
+            { label: 'おしゃれに楽しみたい', value: 'fancy' },
+            { label: 'とにかくお酒が飲みたい', value: 'drink' },
         ],
     },
     {
         id: 2,
         question: '誰と食べる？',
-        emoji: '👥',
         bgGradient: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
         options: [
-            { label: 'ひとりで気ままに 🧘', value: 'alone' },
-            { label: '恋人とロマンチックに 💕', value: 'partner' },
-            { label: '友達とワイワイ 🎉', value: 'friends' },
-            { label: '家族団らん 👨‍👩‍👧‍👦', value: 'family' },
+            { label: 'ひとりで気ままに', value: 'alone' },
+            { label: '恋人とロマンチックに', value: 'partner' },
+            { label: '友達とワイワイ', value: 'friends' },
+            { label: '家族団らん', value: 'family' },
         ],
     },
     {
         id: 3,
         question: '予算はどれくらい？',
-        emoji: '💰',
         bgGradient: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
         options: [
-            { label: 'ワンコイン以内 🪙', value: 'cheap' },
-            { label: '1000円くらい 💴', value: 'moderate' },
-            { label: '奮発しちゃう 💎', value: 'expensive' },
-            { label: 'お金なんて関係ない 🤑', value: 'unlimited' },
+            { label: 'ワンコイン以内', value: 'cheap' },
+            { label: '1000円くらい', value: 'moderate' },
+            { label: '奮発しちゃう', value: 'expensive' },
+            { label: 'お金なんて関係ない', value: 'unlimited' },
         ],
     },
     {
         id: 4,
         question: 'カロリー、気にする？',
-        emoji: '⚖️',
         bgGradient: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
         options: [
-            { label: 'めっちゃ気にする 📊', value: 'strict' },
-            { label: 'ちょっとは気にする 🤔', value: 'moderate' },
-            { label: '今日くらいいいじゃん 😋', value: 'relax' },
-            { label: 'カロリーは正義 🔥', value: 'no_care' },
+            { label: 'めっちゃ気にする', value: 'strict' },
+            { label: 'ちょっとは気にする', value: 'moderate' },
+            { label: '今日くらいいいじゃん', value: 'relax' },
+            { label: 'カロリーは正義', value: 'no_care' },
         ],
     },
     {
         id: 5,
         question: '辛いもの好き？',
-        emoji: '🌶️',
         bgGradient: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)',
         options: [
-            { label: '辛ければ辛いほど良い 🔥', value: 'love' },
-            { label: 'ピリ辛くらいがちょうどいい 🫡', value: 'mild' },
-            { label: '甘口でお願いします 🍬', value: 'sweet' },
-            { label: '辛いは痛い 😵', value: 'no' },
+            { label: '辛ければ辛いほど良い', value: 'love' },
+            { label: 'ピリ辛くらいがちょうどいい', value: 'mild' },
+            { label: '甘口でお願いします', value: 'sweet' },
+            { label: '辛いは痛い', value: 'no' },
         ],
     },
     {
         id: 6,
         question: '理想の焼き加減は？',
-        emoji: '🔥',
         bgGradient: 'linear-gradient(135deg, #f6d365 0%, #fda085 100%)',
         options: [
-            { label: 'カリッカリ派 🥓', value: 'crispy' },
-            { label: 'ふわっふわ派 ☁️', value: 'fluffy' },
-            { label: 'トロトロ派 🫠', value: 'melty' },
-            { label: '焦げ目が命 🤤', value: 'charred' },
+            { label: 'カリッカリ派', value: 'crispy' },
+            { label: 'ふわっふわ派', value: 'fluffy' },
+            { label: 'トロトロ派', value: 'melty' },
+            { label: '焦げ目が命', value: 'charred' },
         ],
     },
     {
         id: 7,
         question: 'マヨネーズは必須？',
-        emoji: '🥄',
         bgGradient: 'linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)',
         options: [
-            { label: '絶対必須！！ 🫶', value: 'must' },
-            { label: 'あれば嬉しい 😊', value: 'nice' },
-            { label: 'なくても平気 😌', value: 'ok' },
-            { label: 'マヨラーです 🤍', value: 'mayoler' },
+            { label: '絶対必須！', value: 'must' },
+            { label: 'あれば嬉しい', value: 'nice' },
+            { label: 'なくても平気', value: 'ok' },
+            { label: 'マヨラーです', value: 'mayoler' },
         ],
     },
     {
         id: 8,
         question: '料理中に聴く音楽は？',
-        emoji: '🎵',
         bgGradient: 'linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)',
         options: [
-            { label: 'J-POP 🎤', value: 'jpop' },
-            { label: 'ジャズでムーディーに 🎷', value: 'jazz' },
-            { label: 'EDMでテンションMAX 🎧', value: 'edm' },
-            { label: '無音で集中 🤫', value: 'silent' },
+            { label: 'J-POP', value: 'jpop' },
+            { label: 'ジャズでムーディーに', value: 'jazz' },
+            { label: 'EDMでテンションMAX', value: 'edm' },
+            { label: '無音で集中', value: 'silent' },
         ],
     },
     {
         id: 9,
         question: '今日のラッキーカラーは？',
-        emoji: '🎨',
         bgGradient: 'linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%)',
         options: [
-            { label: '情熱のレッド 🔴', value: 'red' },
-            { label: '爽やかブルー 🔵', value: 'blue' },
-            { label: 'ハッピーイエロー 🟡', value: 'yellow' },
-            { label: 'ミステリアスパープル 🟣', value: 'purple' },
+            { label: '情熱のレッド', value: 'red' },
+            { label: '爽やかブルー', value: 'blue' },
+            { label: 'ハッピーイエロー', value: 'yellow' },
+            { label: 'ミステリアスパープル', value: 'purple' },
         ],
     },
     {
         id: 10,
         question: 'お好み焼きが食べたい？',
-        emoji: '🍳',
         bgGradient: 'linear-gradient(135deg, #ff6b6b 0%, #ffd93d 50%, #2ecc71 100%)',
         isLastQuestion: true,
         options: [
@@ -124,23 +114,23 @@ export const questions = [
 
 /* Result catchphrases based on first question answer */
 export const catchphrases = {
-    heavy: 'ガッツリ食べたいあなたにぴったり！ キャベツどっさり、ボリューム満点の一品！',
-    healthy: 'ヘルシー志向のあなたに朗報！ キャベツたっぷり、野菜が主役の完全栄養食！',
-    fancy: 'おしゃれに楽しみたいあなたへ。ジャパニーズ・セイボリー・パンケーキをどうぞ！',
-    drink: 'お酒のお供に最高の一品、見つけました。ビールとの相性は宇宙レベル🍺✨',
+    heavy: 'ガッツリ食べたいあなたにぴったり！ キャベツどっさり、ボリューム満点の一品。',
+    healthy: 'ヘルシー志向のあなたに朗報！ キャベツたっぷり、野菜が主役の完全栄養食。',
+    fancy: 'おしゃれに楽しみたいあなたへ。ジャパニーズ・セイボリー・パンケーキをどうぞ。',
+    drink: 'お酒のお供に最高の一品、見つけました。ビールとの相性は宇宙レベル。',
 };
 
 /* Full Okonomiyaki recipe */
 export const recipe = {
     name: 'お好み焼き',
     nameEn: 'Okonomiyaki',
-    subtitle: '〜 究極のジャパニーズ・ソウルフード 〜',
+    subtitle: '究極のジャパニーズ・ソウルフード',
     description:
         'ふわふわの生地にたっぷりのキャベツ、お好みの具材を混ぜて焼き上げる、日本が誇る最強のソウルフード。ソースとマヨネーズの香ばしい香りが食欲をそそります。',
     prepTime: '15分',
     cookTime: '10分',
     servings: '2人前',
-    difficulty: '★★☆☆☆',
+    difficulty: 2,
     ingredients: [
         { name: '薄力粉', amount: '150g' },
         { name: '卵', amount: '2個' },
@@ -159,51 +149,44 @@ export const recipe = {
         {
             number: 1,
             title: '生地を作る',
-            detail:
-                'ボウルに薄力粉、卵、だし汁を入れてよく混ぜます。ダマがなくなるまで滑らかに混ぜましょう。',
+            detail: 'ボウルに薄力粉、卵、だし汁を入れてよく混ぜます。ダマがなくなるまで滑らかに。',
         },
         {
             number: 2,
             title: 'キャベツを切る',
-            detail:
-                'キャベツを粗めの千切りにします。ザクザク食感を残すのがポイント！',
+            detail: 'キャベツを粗めの千切りにします。ザクザク食感を残すのがポイント。',
         },
         {
             number: 3,
             title: '具材を混ぜる',
-            detail:
-                '生地にキャベツ、天かす、紅しょうがを加えて、ざっくりと混ぜ合わせます。混ぜすぎないのがふわふわのコツ！',
+            detail: '生地にキャベツ、天かす、紅しょうがを加えて、ざっくりと混ぜ合わせます。混ぜすぎないのがふわふわのコツ。',
         },
         {
             number: 4,
             title: '焼く（表面）',
-            detail:
-                'フライパンに油をひき、中火で温めます。生地を丸く流し入れ、その上に豚バラ肉を広げます。蓋をして5分ほど焼きます。',
+            detail: 'フライパンに油をひき中火で温め、生地を丸く流し入れ豚バラ肉を広げます。蓋をして5分。',
         },
         {
             number: 5,
             title: 'ひっくり返す',
-            detail:
-                '底面がこんがり焼けたら、思い切ってひっくり返します！ここが一番の見せ場です💪',
+            detail: '底面がこんがり焼けたら、思い切ってひっくり返します。ここが一番の見せ場。',
         },
         {
             number: 6,
             title: '仕上げ焼き',
-            detail:
-                '裏面も5分ほど焼いて、中まで火を通します。蓋をして蒸し焼きにするとふっくら仕上がります。',
+            detail: '裏面も5分ほど焼いて中まで火を通します。蓋をして蒸し焼きにするとふっくら。',
         },
         {
             number: 7,
             title: 'トッピング',
-            detail:
-                'お皿に盛り付けて、ソースをたっぷり塗り、マヨネーズをかけて、かつお節と青のりを散らせば完成！🎉',
+            detail: 'お皿に盛り付け、ソースを塗り、マヨネーズをかけ、かつお節と青のりを散らせば完成。',
         },
     ],
     tips: [
-        '生地は混ぜすぎない！ザクザク感が残るくらいがベスト。',
-        'キャベツは粗めに切ると食感がUP👆',
+        '生地は混ぜすぎない。ザクザク感が残るくらいがベスト。',
+        'キャベツは粗めに切ると食感がアップ。',
         '焼くときは触りすぎない。じっくり待つのが美味しさの秘訣。',
-        'ひっくり返すときはお皿を使うと安全＆確実！',
-        'ソースは仕上げに塗ると香ばしい香りが引き立ちます。',
+        'ひっくり返すときはお皿を使うと安全かつ確実。',
+        'ソースは仕上げに塗ると香ばしい香りが引き立つ。',
     ],
 };

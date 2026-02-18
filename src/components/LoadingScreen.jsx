@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
+import { IconCheck } from './Icons';
 
 const loadingSteps = [
-    { icon: '📊', text: '回答データを収集中...' },
-    { icon: '🧠', text: 'AIが味覚プロファイルを分析中...' },
-    { icon: '🍽️', text: '10万件のレシピをスキャン中...' },
-    { icon: '⭐', text: '最適な料理をマッチング中...' },
-    { icon: '🎉', text: '結果が出ました！' },
+    { text: '回答データを収集中' },
+    { text: 'AIが味覚プロファイルを分析中' },
+    { text: '10万件のレシピをスキャン中' },
+    { text: '最適な料理をマッチング中' },
+    { text: '結果が出ました！' },
 ];
 
 function LoadingScreen({ onComplete }) {
@@ -30,14 +31,14 @@ function LoadingScreen({ onComplete }) {
 
     return (
         <div className="loading-screen">
-            <div className="loading-icon-container">
+            <div className="loading-spinner-container">
                 <div className="loading-ring" />
-                <div className="loading-ring" />
-                <div className="loading-ring" />
-                <span className="loading-emoji">🍳</span>
+                <div className="loading-ring loading-ring--2" />
+                <div className="loading-ring loading-ring--3" />
+                <div className="loading-center-dot" />
             </div>
 
-            <h2 className="loading-title">高度なAIが分析中...</h2>
+            <h2 className="loading-title">Analyzing...</h2>
             <p className="loading-subtitle">
                 あなたにぴったりの料理を見つけています
             </p>
@@ -50,8 +51,12 @@ function LoadingScreen({ onComplete }) {
 
                     return (
                         <div key={index} className={className}>
-                            <span className="loading-step-icon">
-                                {index < activeStep ? '✅' : step.icon}
+                            <span className="loading-step-indicator">
+                                {index < activeStep ? (
+                                    <IconCheck size={14} color="var(--color-nori)" />
+                                ) : (
+                                    <span className="loading-step-dot" />
+                                )}
                             </span>
                             <span>{step.text}</span>
                         </div>
